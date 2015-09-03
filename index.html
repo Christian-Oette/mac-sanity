@@ -47,6 +47,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#finder" class="smoothScroll">Finder</a></li>
                     <li><a href="#keyboard" class="smoothScroll">Tastatur</a></li>
+                    <li><a href="#filesystem" class="smoothScroll">Dateisystem</a></li>
                     <!--<li> <a href="#services" class="smoothScroll"> Services</a></li>-->
                     <!--<li> <a href="#team" class="smoothScroll"> Team</a></li>-->
                     <!--<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>-->
@@ -252,14 +253,38 @@
 <!-- ==== SECTION DIVIDER2 -->
 <section class="section-divider textdivider divider2"
          style="background:url('images/bg2.jpg');">
-    <div class="container">
-        <h1>Weitere Tips folgen in Kürze</h1>
+    <div class="container" id="filesystem" name="filesystem">
+        <h1>Dateisystem</h1>
         <hr>
-        <p>....</p>
     </div>
     <!-- container -->
 </section>
 <!-- section -->
+
+<!-- ==== SERVICES ==== -->
+<div class="container">
+    <br>
+    <br>
+
+    <div class="row">
+        <h2 class="centered">Installation von Programmen</h2>
+        <hr>
+        <br>
+        <p>
+            Mac OSX ist im Kern ein BSD Unix mit zusätzlicher Ordnerstruktur für OSX. In alter Apple Tradition hat man den Kern möglichst weit vom Endnutzer wegabstrahiert.
+            Als Endbenutzer sieht man zunächst nur das OSX System und erst beim Arbeiten mit dem Terminal fällt auf, dass sich MacOSX ähnlich wie ein Unix System verhält.
+            Im <a href="https://de.wikipedia.org/wiki/Filesystem_Hierarchy_Standard"> Unix Dateisystem Standard </a> ist die Bedeutung der Unix Ordner gut beschrieben.
+        </p>
+        <p>
+            Bei der Installation von Programmen verwende ich daher folgende Herangehensweise:
+            <ul>
+                <li>Alle grafischen OSX Programme in den globalen Programm Ordner (<em>/Applications</em>) kopieren.</li>
+                <li>Alle Programme, die man über einen schnellen Zugriff über den Finder konfigurieren möchte in den lokalen Programm Ordner (<em>/User/.../Applications></em>) kopieren</li>
+                <li>Alle sonstigen Unix Programme ohne Installer in <em>/usr/local</em> installieren</li>
+            </ul>
+        </p>
+    </div>
+</div>
 
 
 <!-- ==== SERVICES ==== -->
